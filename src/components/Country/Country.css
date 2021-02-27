@@ -1,0 +1,28 @@
+.country-style{
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 7px 7px 10px gray;
+    margin: 20px;
+    background-color:lightblue
+}
+.flag-style{
+    padding: 10px;
+}
+.flag-style img{
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+p{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+.detils-style button{
+    margin: 20px;
+    background-color: lightpink;
+    border-color: lightsalmon;
+    border-radius: 4px;
+}
