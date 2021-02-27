@@ -13,11 +13,11 @@ function App() {
     .then(data => setCountries(data))
   }, [])
 
-  const handleAddCountry = (countries) => {
-    console.log(countries)
-    const newCart = [...cart, countries];
-    setCart(newCart)
-  }
+  // const handleAddCountry = (countries) => {
+  //   console.log(countries)
+  //   const newCart = [...cart, countries];
+  //   setCart(newCart)
+  // }
 
   return (
     <div className="App">
@@ -25,7 +25,7 @@ function App() {
       {/* <h3>Country added : {cart.length}</h3> */}
       {/* <Cart cart={cart}></Cart> */}
         {
-          countries.map(country => <Country country={country} handleAddCountry={handleAddCountry} key={country.alpha3Code}>{country.name}</Country>)
+          countries.map(country => <Country country={country}  key={country.alpha3Code}>{country.name}</Country>)
         }
     </div>
   );
